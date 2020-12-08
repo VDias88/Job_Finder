@@ -1,0 +1,25 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "Project using node,express,sequelize",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "devjobs",
+    "devsite"
+  ],
+  "author": "Vinicius Dias",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
